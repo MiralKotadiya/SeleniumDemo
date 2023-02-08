@@ -41,6 +41,7 @@ public class FirstDemo {
 		//WebDriver driver = new SafariDriver(); 
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 
+		//get title
         String title = driver.getTitle();
         assertEquals("Web form", title);
 
